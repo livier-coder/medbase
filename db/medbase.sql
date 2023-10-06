@@ -114,7 +114,7 @@ CREATE TABLE supplier(
     delivery_date DATE,
     to_pay FLOAT(10),
     delivered BOOLEAN,
-    PRIMARY KEY(id_supplier),
+    PRIMARY KEY(id_supplier)
 );
 
 CREATE TABLE news(
